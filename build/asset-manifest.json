@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.815dd0ac.css",
-    "main.js": "/static/js/main.91e57297.js",
+    "main.css": "/static/css/main.20555f70.css",
+    "main.js": "/static/js/main.3d86b633.js",
     "static/media/bg.svg": "/static/media/bg.1a5273fd0cf99d9a9dbe.svg",
     "static/media/5.svg": "/static/media/5.170fe4d3dc9aa23c099b82d99482a264.svg",
     "static/media/LogoCervejada.svg": "/static/media/LogoCervejada.bd7531bf9c3a93b34df6.svg",
@@ -23,21 +23,21 @@
     "static/media/ParceirosDoRole.svg": "/static/media/ParceirosDoRole.dda904955aedd5e6edc1.svg",
     "static/media/2.svg": "/static/media/2.d9a964d2c7e9a0a537be48c393ca0dfc.svg",
     "static/media/13.svg": "/static/media/13.778ec48640959cf8b57de54a13b6cfa4.svg",
+    "static/media/12.svg": "/static/media/12.d80a38941488bb9d109a6c766625c15c.svg",
     "static/media/1.svg": "/static/media/1.5dfe5b1dca2110b2c7dc9e363df31447.svg",
     "static/media/4.svg": "/static/media/4.d4292e49f5f51f76e5c027b0fec7ab28.svg",
     "static/media/7.svg": "/static/media/7.d9ed3959b90f82c0a6d9e3f1e19b81fc.svg",
-    "static/media/12.svg": "/static/media/12.3e9a46ca55b2d94cb5147cbe5596e395.svg",
     "static/media/11.svg": "/static/media/11.bed83edec94e5514d49985e6f440d00c.svg",
     "static/media/9.svg": "/static/media/9.44b996a55f5dff6bc2e48246d491bf86.svg",
     "static/media/JRSN.svg": "/static/media/JRSN.e3ba6b4f5a459907d86e.svg",
     "static/media/instagram.svg": "/static/media/instagram.7d753fa0b3a11dbbeb16d14b2f7ad87b.svg",
     "static/media/whatsapp.svg": "/static/media/whatsapp.1e572b5ff96d19656a3cef7177477798.svg",
     "index.html": "/index.html",
-    "main.815dd0ac.css.map": "/static/css/main.815dd0ac.css.map",
-    "main.91e57297.js.map": "/static/js/main.91e57297.js.map"
+    "main.20555f70.css.map": "/static/css/main.20555f70.css.map",
+    "main.3d86b633.js.map": "/static/js/main.3d86b633.js.map"
   },
   "entrypoints": [
-    "static/css/main.815dd0ac.css",
-    "static/js/main.91e57297.js"
+    "static/css/main.20555f70.css",
+    "static/js/main.3d86b633.js"
   ]
 }
