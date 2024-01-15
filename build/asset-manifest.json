@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.815dd0ac.css",
+    "main.js": "/static/js/main.91e57297.js",
+    "static/media/bg.svg": "/static/media/bg.1a5273fd0cf99d9a9dbe.svg",
+    "static/media/5.svg": "/static/media/5.170fe4d3dc9aa23c099b82d99482a264.svg",
+    "static/media/LogoCervejada.svg": "/static/media/LogoCervejada.bd7531bf9c3a93b34df6.svg",
+    "static/media/megafone.svg": "/static/media/megafone.27501f3840e11e57a0ed66128f023840.svg",
+    "static/media/ticket.svg": "/static/media/ticket.649c45891c8fae5bef7bb5ac3017eb06.svg",
+    "static/media/mapa.svg": "/static/media/mapa.7a71af0b8d64e11f83396f68ea32257f.svg",
+    "static/media/Camera.svg": "/static/media/Camera.23f9c3c94e543f3f3cf4eae2aff4ba19.svg",
+    "static/media/Tambor.svg": "/static/media/Tambor.1768fe31fe9d0c7da2eb.svg",
+    "static/media/DomingoSantoLogo.svg": "/static/media/DomingoSantoLogo.00de5cd2b0348d9442de.svg",
+    "static/media/14.svg": "/static/media/14.cfea93fc3e399b9abb5108c9cd57b2e3.svg",
+    "static/media/8.svg": "/static/media/8.51b57ba45f09d999824b55032f361f65.svg",
+    "static/media/17.svg": "/static/media/17.1a31d4a364b70f9abb2f31b176a125a2.svg",
+    "static/media/6.svg": "/static/media/6.43c87e49060c4d41e344a32ca0666d5d.svg",
+    "static/media/10.svg": "/static/media/10.73fe2cdba1a51278d084a045789e5d31.svg",
+    "static/media/PromotersPage.svg": "/static/media/PromotersPage.b56136e30a490e54ffee.svg",
+    "static/media/16.svg": "/static/media/16.6e0301e16f8f79018c6e4a65ef86f511.svg",
+    "static/media/3.svg": "/static/media/3.4536144c881f90dc9dcdfefbf13b8113.svg",
+    "static/media/15.svg": "/static/media/15.a8da8293158818f7c9bc274f58d115f6.svg",
+    "static/media/ParceirosDoRole.svg": "/static/media/ParceirosDoRole.dda904955aedd5e6edc1.svg",
+    "static/media/2.svg": "/static/media/2.d9a964d2c7e9a0a537be48c393ca0dfc.svg",
+    "static/media/13.svg": "/static/media/13.778ec48640959cf8b57de54a13b6cfa4.svg",
+    "static/media/1.svg": "/static/media/1.5dfe5b1dca2110b2c7dc9e363df31447.svg",
+    "static/media/4.svg": "/static/media/4.d4292e49f5f51f76e5c027b0fec7ab28.svg",
+    "static/media/7.svg": "/static/media/7.d9ed3959b90f82c0a6d9e3f1e19b81fc.svg",
+    "static/media/12.svg": "/static/media/12.3e9a46ca55b2d94cb5147cbe5596e395.svg",
+    "static/media/11.svg": "/static/media/11.bed83edec94e5514d49985e6f440d00c.svg",
+    "static/media/9.svg": "/static/media/9.44b996a55f5dff6bc2e48246d491bf86.svg",
+    "static/media/JRSN.svg": "/static/media/JRSN.e3ba6b4f5a459907d86e.svg",
+    "static/media/instagram.svg": "/static/media/instagram.7d753fa0b3a11dbbeb16d14b2f7ad87b.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.1e572b5ff96d19656a3cef7177477798.svg",
+    "index.html": "/index.html",
+    "main.815dd0ac.css.map": "/static/css/main.815dd0ac.css.map",
+    "main.91e57297.js.map": "/static/js/main.91e57297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.815dd0ac.css",
+    "static/js/main.91e57297.js"
+  ]
+}

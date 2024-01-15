@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto:ital,wght@1,300&display=swap');
+:root{
+    --bgColor:#7900fb; 
+    --bgSvg:url('../imgs/bg.svg');
+    --logo:url('../imgs/DomingoSantoLogo.svg');
+    --logoCervejada:url('../imgs/LogoCervejada.svg');
+    --tambor:url('../imgs/Tambor.svg');
+    --ColorAmarelo: rgba(247, 255, 20, 1);
+    --ColorAmareloEscuro:rgba(255, 193, 20, 1);
+    --iconMapa:url('../imgs/icons/mapa.svg');
+    --iconMegafone:url('../imgs/icons/megafone.svg');
+    --iconTicket:url('../imgs/icons/ticket.svg');
+    --parceiros:url('../imgs/ParceirosDoRole.svg');
+    --ColorInsta:#d119cf;
+    --ColorWpp:#25d366;
+    --iconCamera:url('../imgs/icons/Camera.svg');
+    --iconInsta:url('../imgs/icons/instagram.svg');
+    --iconWpp:url('../imgs/icons/whatsapp.svg');
+    --JRSN:url('../imgs/JRSN.svg');
+    --PromotersPage:url('../imgs/PromotersPage.svg');
+}
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background:transparent       /* color of the tracking area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #2f034c;    /* color of the scroll thumb */
+    border-radius: 20px;   
+    margin:12px;    /* roundness of the scroll thumb */ /* creates padding around scroll thumb */
+  }
+body{
+    background:var(--bgSvg) no-repeat center top  var(--bgColor);
+    background-size:cover;
+    background-position: fixed;
+}
+#contador p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color:black;
+    letter-spacing: 2px;
+    font-size: calc(10px + 0.5rem);
+    padding:10px 0;
+}
+#contador h2{
+    font-family: 'Roboto',sans-serif;
+    color:var(--bgColor);
+    font-size: 3vw;
+}
+#contador span{
+    font-size: 'Roboto',sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-size:1vw;
+}
+#contador span:last-child{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    padding:20px 0;
+    color: var(--bgColor);
+    font-size:1vw;
+}
+#botaomap span{
+    font-size: 1vw;
+    color: fff;
+    font-family: 'Roboto',sans-serif;
+    transform: rotate(90deg);
+    margin-left: -40px;
+    color: white;
+}
+#promoter div, #ticket div{
+    display: grid;
+    align-items: center;
+    height: 6vh;
+    text-align: center;
+    padding: 7px 35px;
+    border-radius: 12px;
+    border:1px #fff solid;
+    
+}
+.parceria, .BoxParceiros{
+    animation: parceria 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50vh;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+
+#promoter h3{
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 4px;
+    font-size:1.2vw;
+}   
+#ticket h3{
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size:1.2vw;
+    text-wrap: nowrap;
+}   
+#promoter span{
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#ticket span{
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#botaoinsta h3, #botaogaleria h3, #botaowpp h3{
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 3px;
+    font-size:1.1vw;
+    color: white;
+}
+#botoesPromoter h3{
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1px;
+    text-wrap: wrap;
+    color: white;
+    display: flex;
+}
+#botaogaleria h3{
+    color: var(--bgColor);
+}
+#botaogaleria span{
+   font-family: 'Roboto',sans-serif;
+   letter-spacing: 1px;
+   display: flex;
+   color: var(--bgColor);
+   font-size: 0.8vw;
+   text-transform: uppercase;
+}
+#promoterdados h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 2.4vw;
+    letter-spacing: 3px;
+}
+@media screen and (max-width:680px) {
+    #promoterdados h2{
+        font-size: 5vw;
+        padding: 0 20px;
+        text-wrap: wrap;
+    }
+    #promoterdados span{
+        padding: 0 20px;
+    }
+}
+#botaoinsta span, #botaowpp span{
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    display: flex;
+    font-size:0.8vw;
+}
+
+
+  @keyframes parceria {
+    0% { 
+        opacity: 0;
+        scale: 0;
+        }
+   50% 
+        { 
+        opacity: 1;
+        scale: 1;
+        }
+  }
+@media screen and (max-width: 680px) {
+    #promoter div, #ticket div{
+      width: 50vw;
+    }
+    #promoter h3{
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 4px;
+        font-size:100%;
+    }   
+    #ticket h3{
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 4px;
+        text-align: center;
+        font-size:100%;
+        text-wrap: nowrap;
+    }   
+    #promoter span{
+        display: grid;
+        font-family: 'Roboto', sans-serif;
+        font-size: 90%;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    #ticket span{
+        display: grid;
+        font-family: 'Roboto', sans-serif;
+        font-size: 90%;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+   
+    #botaomap span{
+        font-size: 70%;
+    }
+    #contador h2{
+        font-size: 100%;
+    }
+    #contador p{
+        font-size:50%;
+    }
+    #contador span{
+        font-size:30%;
+    }
+    #contador span:last-child{
+        font-size:60%;
+    }
+    #botaoinsta span, #botaowpp span{
+        color: white;
+        font-weight: bold;
+        display: flex;
+        font-size:2vw;
+    }
+    #botaoinsta h3, #botaogaleria h3, #botaowpp h3{
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 3px;
+        font-size:4vw;
+    }
+    #botaogaleria span{
+        font-size: 2.1vw;
+    }
+    body{
+        background-size:contain;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+}
