@@ -52,13 +52,14 @@ import mapa from "./imgs/icons/mapa.svg";
       BotaoMapaImg,
       BotaoMapaSpan
     } from "./components/component";
+import useContador from "./components/contador";
 // Import de Imagens de parcerias
  
 function Site() {
-
+  const [dia,hora, minuto, segundo] = useContador("Feb 3, 2024 23:00:00");
   document.title = "CERVEJADA - Domingo Santo";
   return (
-    <html lang="pt-BRgit init">
+    <html lang="pt-BR">
       <head>
         <meta charset="UTF-8" lang="pt-BR" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -76,13 +77,13 @@ function Site() {
             <Contagem>
               <Contador id="contador">
                   <p>FALTAM</p>
-                  <h2>29</h2>
+                  <h2>{dia}</h2>
                   <span>DIAS</span>
-                  <h2>18</h2>
+                  <h2>{hora}</h2>
                   <span>HORAS</span>
-                  <h2>17</h2>
+                  <h2>{minuto}</h2>
                   <span>MINUTOS</span>
-                  <span>12 SEGUNDOS</span>
+                  <span>{segundo} SEGUNDOS</span>
               </Contador>
             </Contagem>
           </Cervejada>
@@ -141,7 +142,7 @@ function Site() {
               </Parceiros>
          </BoxParceiros>
          <Rodape>
-            <BotaoInsta id="botaoinsta">
+            <BotaoInsta id="botaoinsta" onClick={()=> window.location.href="https://www.instagram.com/domingosantojac"}>
                 <IconRedes> 
                   <img src={iconInsta} alt="Icone Redes Sociais" />
                 </IconRedes>
@@ -150,7 +151,7 @@ function Site() {
                   <span>FIQUE POR DENTRO DAS ATUALIZAÇÕES</span>
                 </section>
             </BotaoInsta>
-            <BotaoGaleria id="botaogaleria">
+            <BotaoGaleria id="botaogaleria" onClick={() => window.location.href="https://drive.google.com/drive/folders/1SjZSiP9qM62jvOxJ2YAZzpUdBiX_Sual"}>
                 <IconRedes> 
                     <img src={iconGaleria}  alt="Icone Redes Sociais"  />
                 </IconRedes>
@@ -159,7 +160,7 @@ function Site() {
                 <span>Todas as fotos e videos</span>
                 </section>
             </BotaoGaleria>
-            <BotaoWpp id="botaowpp">
+            <BotaoWpp id="botaowpp"  onClick={()=> window.location.href="https://wa.me/43996126776"}>
             <IconRedes> 
                 <img src={iconIWapp}  alt="Icone Redes Sociais" />
             </IconRedes>
@@ -169,7 +170,7 @@ function Site() {
              </section>
             </BotaoWpp>
          </Rodape>
-         <Developer/>
+         <Developer onClick={() => window.location.href="https://www.instagram.com/jrsn.designer"}/>
         </Body>
       </body>
     </html>
