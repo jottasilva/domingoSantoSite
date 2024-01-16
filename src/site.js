@@ -61,15 +61,13 @@ function Site() {
   return (
     <html lang="pt-BR">
       <head>
-        <meta charset="UTF-8" lang="pt-BR" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" lang="pt-BR"/>
       </head>
       <body>
       <Body>
           <Topo>
             <Logo />
           </Topo>
-
           <Cervejada>
             <LogoCervejada>
               <CervejadaMsg>De Santo só o Nome!</CervejadaMsg>
@@ -121,23 +119,23 @@ function Site() {
             <TextoParceiros/>
               <Parceiros>
           
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/sevenbrindespr"} className="parceria"><img src={logo1} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/sorteesportiva.parana"} className="parceria"><img src={logo2} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/housearguile"} className="parceria"><img src={logo3} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/fortpinturas_"} className="parceria"><img src={logo4} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/deliverymuchjacarezinho"} className="parceria"><img src={logo5} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/bardosamigosjac"} className="parceria"><img src={logo6} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/jrsn.designer"} className="parceria"><img src={logo7} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/idealcred.brasil"} className="parceria"><img src={logo8} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/eng.hximenes"} className="parceria"><img src={logo9} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/restaurantemartonis"} className="parceria"><img src={logo10} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/mamute_iphone01"} className="parceria"><img src={logo11} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/motos_avenidabrasil"} className="parceria"><img src={logo12} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/sun.powersolar"} className="parceria"><img src={logo13} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/dr.felipeandrade"} className="parceria"><img src={logo14} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/moodsushi_"} className="parceria"><img src={logo15} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/mestredogole"} className="parceria"><img src={logo16} alt=""/> </Parceria>
-                  <Parceria onClick={() => window.location.href="https://www.instagram.com/lojabarbarril"} className="parceria"><img src={logo17} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/sevenbrindespr"} className="parceria"><img id="logo_parceiro" src={logo1} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/sorteesportiva.parana"} className="parceria"><img  id="logo_parceiro" src={logo2} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/housearguile"} className="parceria"><img  id="logo_parceiro" src={logo3} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/fortpinturas_"} className="parceria"><img  id="logo_parceiro" src={logo4} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/deliverymuchjacarezinho"} className="parceria"><img id="logo_parceiro" src={logo5} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/bardosamigosjac"} className="parceria"><img id="logo_parceiro" src={logo6} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/jrsn.designer"} className="parceria"><img id="logo_parceiro" src={logo7} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/idealcred.brasil"} className="parceria"><img id="logo_parceiro" src={logo8} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/eng.hximenes"} className="parceria"><img id="logo_parceiro" src={logo9} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/restaurantemartonis"} className="parceria"><img id="logo_parceiro" src={logo10} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/mamute_iphone01"} className="parceria"><img id="logo_parceiro" src={logo11} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/motos_avenidabrasil"} className="parceria"><img id="logo_parceiro" src={logo12} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/sun.powersolar"} className="parceria"><img id="logo_parceiro" src={logo13} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/dr.felipeandrade"} className="parceria"><img id="logo_parceiro" src={logo14} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/moodsushi_"} className="parceria"><img id="logo_parceiro" src={logo15} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/mestredogole"} className="parceria"><img id="logo_parceiro" src={logo16} alt=""/> </Parceria>
+                  <Parceria onClick={() => window.location.href="https://www.instagram.com/lojabarbarril"} className="parceria"><img id="logo_parceiro" src={logo17} alt=""/> </Parceria>
   
               </Parceiros>
          </BoxParceiros>

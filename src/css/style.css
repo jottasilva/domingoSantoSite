@@ -163,6 +163,7 @@ body{
     display: flex;
     font-size:0.8vw;
 }
+
 @media screen and (max-width: 680px) {
     #promoter div, #ticket div{
       width: 50vw;
@@ -171,7 +172,11 @@ body{
         font-family: 'Roboto',sans-serif;
         letter-spacing: 4px;
         font-size:100%;
-    }   
+    } 
+    #logo_parceiro{
+        width:100%;
+        height: auto;
+    }  
     #ticket h3{
         font-family: 'Roboto',sans-serif;
         letter-spacing: 4px;

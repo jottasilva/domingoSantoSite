@@ -190,9 +190,10 @@ export const Parceria = styled.div`
    align-items: center;
    border-radius: 6px;
    transition:0.5s all ease-in-out;
+  
    @media screen and (max-width: 680px) {
     width: 70vw;
-    height: 70vw;
+    height: 60vw;
    }
    &:hover{
       scale: 1.3;
