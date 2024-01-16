@@ -11,7 +11,6 @@ const useContador = (date) => {
         const countDate = new Date(date).getTime();
         const now = new Date().getTime();
         const interval = countDate - now;
-        console.log(interval);
         const second = 1000;
         const minutes = second * 60;
         const hour = minutes * 60;
