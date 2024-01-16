@@ -23,6 +23,7 @@ import mapa from "./imgs/icons/mapa.svg";
     import logo15 from "./imgs/logos-patrocinadores/15.svg";
     import logo16 from "./imgs/logos-patrocinadores/16.svg";
     import logo17 from "./imgs/logos-patrocinadores/17.svg";
+
     import {
       Logo,
       Topo,
@@ -54,18 +55,20 @@ import mapa from "./imgs/icons/mapa.svg";
 // Import de Imagens de parcerias
  
 function Site() {
+
   document.title = "CERVEJADA - Domingo Santo";
   return (
-    <html lang="pt-br">
+    <html lang="pt-BRgit init">
       <head>
         <meta charset="UTF-8" lang="pt-BR" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <Body>
+      <Body>
           <Topo>
             <Logo />
           </Topo>
+
           <Cervejada>
             <LogoCervejada>
               <CervejadaMsg>De Santo só o Nome!</CervejadaMsg>

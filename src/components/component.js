@@ -39,6 +39,10 @@ export const LogoCervejada = styled.div`
     height: 28vh;
     max-height: 28vh;
    }
+   &:hover{
+      scale: 1.1;
+      rotate: 3deg;
+    }
 `
 export const Contagem = styled.div`
     display:flex;
@@ -136,6 +140,9 @@ export const PromouterTicket = styled.div`
    transition: 0.5s all linear;
    color: white;
    cursor: pointer;
+   &:hover{
+      rotate: 3deg;
+   }
 `
 export const BotaoTicket = styled.div`
    display:grid;
@@ -143,7 +150,7 @@ export const BotaoTicket = styled.div`
    transition: 0.5s all linear;
    color: white;
    &:hover{
-    background-position: center 5px;
+      rotate: 3deg;
    }
 
 `
@@ -177,18 +184,18 @@ export const Parceiros = styled.div`
 `
 export const Parceria = styled.div`
    width: 8vw;
-   height:8vw;
+   height:6vw;
    display: flex;
    justify-content: center;
    align-items: center;
    border-radius: 6px;
+   transition:0.5s all ease-in-out;
    @media screen and (max-width: 680px) {
     width: 70vw;
     height: 70vw;
    }
    &:hover{
-      scale: 1.5;
-      background-color:indigo;
+      scale: 1.3;
    }
 `
 export const Rodape = styled.div`
@@ -274,6 +281,7 @@ export const Developer = styled.div`
    background: var(--JRSN) no-repeat center;
    background-size: 20%;
    margin:0 auto;
+   cursor: pointer;
    padding-bottom:6%;
    @media screen and (max-width: 680px) {
       background-size:70%;
