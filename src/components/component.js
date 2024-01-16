@@ -194,6 +194,10 @@ export const Parceria = styled.div`
     width: 70vw;
     height: 70vw;
    }
+   @media screen and (min-width: 1920px) {
+    width: 40vw;
+    height: 40vw;
+   }
    &:hover{
       scale: 1.3;
    }
