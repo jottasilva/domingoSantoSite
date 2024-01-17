@@ -73,7 +73,7 @@ export const Contador = styled.div`
    @media screen and (max-width:680px) {
      flex: 1;
      flex-direction: row;
-     gap: 10px;
+     justify-content: space-evenly;
      margin-top:60px;
    }
    `
