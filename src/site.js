@@ -56,7 +56,7 @@ import useContador from "./components/contador";
 // Import de Imagens de parcerias
  
 function Site() {
-  const [dia,hora, minuto, segundo] = useContador("Feb 3,2024 17:00:00");
+  const [dia,hora, minuto, segundo] = useContador("Feb 3, 2024 17:00:00");
 
   return (
     <html lang="pt-BR">
@@ -74,14 +74,14 @@ function Site() {
             </LogoCervejada>
             <Contagem>
               <Contador id="contador">
-                  <span>{dia>1?"FALTAM":""}</span>
-                  <h2>{dia>0?dia:"CHEGOU"}</h2>
-                  {dia>0?<span>DIAS</span>:""}
-                  <h2>{dia>1?hora:"É HOJE"}</h2>
-                  {dia>0?<span>HORAS</span>:""}
-                  <h2>{dia>1?minuto:"O DIA"}</h2>
-                  {dia>0?<span>MINUTOS</span>:""}
-                  <span>{dia>1?segundo:""}</span>
+                  <p>FALTAM</p>
+                  <h2>{dia}</h2>
+                  <span>DIAS</span>
+                  <h2>{hora}</h2>
+                  <span>HORAS</span>
+                  <h2>{minuto}</h2>
+                  <span>MINUTOS</span>
+                  <span>{segundo} SEGUNDOS</span>
               </Contador>
             </Contagem>
           </Cervejada>
