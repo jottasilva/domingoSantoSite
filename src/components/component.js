@@ -63,7 +63,7 @@ export const Contagem = styled.div`
 export const Contador = styled.div`
    display:flex;
    flex-direction:column;
-   justify-content:center;
+   justify-content:space-between;
    align-items:center;
    text-align:center;
    width:12vw;
@@ -336,10 +336,14 @@ export const PromoterFoto = styled.div`
    height: 20vh;
    border-radius: 8px;
    border:4px #fff solid;
+   transition:0.5s all ease-in-out;
    @media screen  and (max-width:680px){
          width: 15vh;
          height: 15vh;
-      }
+   }
+   &:hover{
+      scale: 1.1;
+   }
 `
 export const PromoterDados = styled.div`
    display: grid;
@@ -360,15 +364,18 @@ export const BotaoWppPromoter = styled.div`
    align-items: center;
    background:var(--ColorWpp);
    border-radius: 6px;
+   transition: 0.5s all ease-in-out;
    cursor: pointer;
    transition:0.5s all ease-in-out;
    @media screen and (max-width: 680px) {
       font-size: 2.4vw;
       width:50vw;
    }
+   &:hover{
+      scale: 1.1;
+   }
 
 `
-
 export const BotaoInstaPromoter = styled.div`
    display:flex;
    flex: 1;
@@ -379,9 +386,13 @@ export const BotaoInstaPromoter = styled.div`
    background:var(--ColorInsta);
    border-radius: 6px;
    cursor: pointer;
+   transition:0.5s all ease-in-out;
    @media screen and (max-width: 680px) {
       font-size: 2.4vw;
       width:50vw;
+   }
+   &:hover{
+      scale: 1.1;
    }
 `
 export const Pdados = styled.div`

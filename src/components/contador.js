@@ -26,7 +26,7 @@ const useContador = (date) => {
         setMinuto(minuteNumber);
         setSegundo(secondNumber);
     };
-    setInterval(countDown, 1000);
+        setInterval(countDown, 1000);
 
     return [dia,hora, minuto, segundo];
 };
