@@ -56,7 +56,7 @@ import useContador from "./components/contador";
 // Import de Imagens de parcerias
  
 function Site() {
-    document.title="CERVEJADA PRÉ CADNAVAL - DOMINGO SANTO";
+    document.title="CERVEJADA PRÉ CARNAVAL - DOMINGO SANTO";
   const [dia,hora, minuto, segundo] = useContador("Feb 3, 2024 17:00:00");
 
   return (
