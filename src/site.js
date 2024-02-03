@@ -75,9 +75,7 @@ function Site() {
             </LogoCervejada>
             <Contagem>
               <Contador id="contador">
-                  <p>FALTAM</p>
                   <h2>ÉÉÉ</h2>
-                  <span>DIAS</span>
                   <h2>HOJE!</h2>
               </Contador>
             </Contagem>
