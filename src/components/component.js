@@ -67,6 +67,7 @@ export const Contador = styled.div`
    align-items:center;
    text-align:center;
    width:12vw;
+   height:16vw;
    border-radius:8px;
    background: rgb(247,255,20);
    background: linear-gradient(6deg, var(--ColorAmarelo) 0%, var(--ColorAmareloEscuro) 100%);
