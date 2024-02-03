@@ -63,7 +63,7 @@ export const Contagem = styled.div`
 export const Contador = styled.div`
    display:flex;
    flex-direction:column;
-   justify-content:space-between;
+   justify-content:space-around;
    align-items:center;
    text-align:center;
    width:12vw;
