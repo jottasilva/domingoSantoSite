@@ -76,13 +76,13 @@ function Site() {
             <Contagem>
               <Contador id="contador">
                   <p>FALTAM</p>
-                  <h2>{dia}</h2>
+                  <h2>ÉÉÉ</h2>
                   <span>DIAS</span>
-                  <h2>{hora}</h2>
+                  <h2>HOJE!</h2>
                   <span>HORAS</span>
-                  <h2>{minuto}</h2>
+                  <h2></h2>
                   <span>MINUTOS</span>
-                  <span>{segundo} SEGUNDOS</span>
+                  <span></span>
               </Contador>
             </Contagem>
           </Cervejada>
