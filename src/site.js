@@ -79,10 +79,6 @@ function Site() {
                   <h2>ÉÉÉ</h2>
                   <span>DIAS</span>
                   <h2>HOJE!</h2>
-                  <span>HORAS</span>
-                  <h2></h2>
-                  <span>MINUTOS</span>
-                  <span></span>
               </Contador>
             </Contagem>
           </Cervejada>
