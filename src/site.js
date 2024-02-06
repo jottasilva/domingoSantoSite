@@ -144,7 +144,7 @@ function Site() {
                   <span>FIQUE POR DENTRO DAS ATUALIZAÇÕES</span>
                 </section>
             </BotaoInsta>
-            <BotaoGaleria id="botaogaleria" onClick={() => window.location.href="https://drive.google.com/drive/folders/1SjZSiP9qM62jvOxJ2YAZzpUdBiX_Sual"}>
+            <BotaoGaleria id="botaogaleria" onClick={() => window.location.href="https://drive.google.com/drive/folders/1kYDop2YVBRPTIfgfA93idPEnZ_ZzvWBg"}>
                 <IconRedes> 
                     <img src={iconGaleria}  alt="Icone Redes Sociais"  />
                 </IconRedes>
